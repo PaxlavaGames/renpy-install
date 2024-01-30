@@ -6,10 +6,10 @@ wget -q https://www.renpy.org/dl/$1/${renpy_sdk_package}.tar.bz2
 clear
 
 echo "Done. RenPy version (${renpy_sdk_package}) was downloaded."
-echo "Unzipping (${sdk_name})..."
-tar -xf ./${sdk_name}.tar.bz2
-rm ./${sdk_name}.tar.bz2
-mv ./${sdk_name} ./renpy
+echo "Unzipping (${renpy_sdk_package})..."
+tar -xf ./${renpy_sdk_package}.tar.bz2
+rm ./${renpy_sdk_package}.tar.bz2
+# mv ./${sdk_name} ./renpy
 
-echo "Done. RenPy (${sdk_name}) was unzipped"
+echo "Done. RenPy (${renpy_sdk_package}) was unzipped"
 echo "You can find RenPy SDK here: ./renpy"
