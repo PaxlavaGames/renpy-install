@@ -9,7 +9,7 @@ echo "Done. RenPy version (${renpy_sdk_package}) was downloaded."
 echo "Unzipping (${renpy_sdk_package})..."
 tar -xf ./${renpy_sdk_package}.tar.bz2
 rm ./${renpy_sdk_package}.tar.bz2
-# mv ./${sdk_name} ./renpy
+mv ./${renpy_sdk_package} ./renpy
 
 echo "Done. RenPy (${renpy_sdk_package}) was unzipped"
 echo "You can find RenPy SDK here: ./renpy"
