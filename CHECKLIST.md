@@ -1,6 +1,6 @@
 [Main points](https://github.com/libresource/open-source-checklist#main-points)
 - [x] [Open Source Project Checklist](https://github.com/libresource/open-source-checklist#open-source-project-checklist)
-- [ ] [Existing Analogues](https://github.com/libresource/open-source-checklist#existing-analogues)
+- [x] [Existing Analogues](https://github.com/libresource/open-source-checklist#existing-analogues)
 - [x] [Good Project Name](https://github.com/libresource/open-source-checklist#good-project-name)
 - [x] [Mission](https://github.com/libresource/open-source-checklist#mission)
 - [x] [State What the Project Is Free](https://github.com/libresource/open-source-checklist#state-what-the-project-is-free)
@@ -20,7 +20,7 @@
 - [ ] [Developer Documentation](https://github.com/libresource/open-source-checklist#developer-documentation)
 - [x] [Availability of Documentation](https://github.com/libresource/open-source-checklist#availability-of-documentation)
 - [x] [FAQ](https://github.com/libresource/open-source-checklist#faq)
-- [ ] [Examples Output and Screenshots](https://github.com/libresource/open-source-checklist#examples-output-and-screenshots)
+- [x] [Examples Output and Screenshots](https://github.com/libresource/open-source-checklist#examples-output-and-screenshots)
 - [x] [License](https://github.com/libresource/open-source-checklist#license)
 - [x] [Code of Conduct](https://github.com/libresource/open-source-checklist#code-of-conduct)
 - [x] [Security Policy](https://github.com/libresource/open-source-checklist#security-policy)
@@ -30,10 +30,10 @@
 - [x] [Support](https://github.com/libresource/open-source-checklist#support)
 
 [CI and CD](https://github.com/libresource/open-source-checklist#ci-and-cd)
-- [ ] Tests
+- [x] Tests
 - [ ] Test Coverage
 - [ ] Test Coverage 100%
 - [ ] Linters
-- [ ] Build
-- [ ] Deploy
+- [x] Build
+- [x] Deploy
 - [ ] [New User Greetings](https://github.com/libresource/open-source-checklist#new-user-greetings)

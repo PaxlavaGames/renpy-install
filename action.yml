@@ -1,16 +1,16 @@
-name: "Empty Action Template"
-author: 'libresource'
-description: "Action template for GitHub actions"
+name: "RenPy Install"
+author: 'PaxlavaGames'
+description: "Download RenPy SDK"
 inputs:
-  param-example:
-    description: "Any string to check how to action params works"
+  version:
+    description: "SDK version"
     required: false
-    default: 'Hello GitHub Action!'
+    default: "8.1.3"
 runs:
   using: 'docker'
   image: 'Dockerfile'
   args:
-    - ${{ inputs.param-example }}
+    - ${{ inputs.version }}
 branding:
-  color: 'green'
-  icon: 'anchor'
+  color: 'purple'
+  icon: 'arrow-down'
