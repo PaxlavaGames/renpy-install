@@ -1,0 +1,14 @@
+name: Test Action With Param
+
+on:
+  push:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v3
+    - name: Test Action With Param
+      uses: libresource/action-template@main
+      with:
+        param-example: 'Hello GitHub!'

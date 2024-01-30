@@ -1,0 +1,16 @@
+name: "Empty Action Template"
+author: 'libresource'
+description: "Action template for GitHub actions"
+inputs:
+  param-example:
+    description: "Any string to check how to action params works"
+    required: false
+    default: 'Hello GitHub Action!'
+runs:
+  using: 'docker'
+  image: 'Dockerfile'
+  args:
+    - ${{ inputs.param-example }}
+branding:
+  color: 'green'
+  icon: 'anchor'
