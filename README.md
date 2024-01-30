@@ -1,6 +1,6 @@
-# Action Template
+# RenPy Install
 
-Open source repository template for GitHub actions
+GitHub action to download and unzip **RenPy SDK** for future using
 
 #### Support
 [![Documentation](https://img.shields.io/badge/docs-0094FF.svg)][documentation_path]
@@ -88,7 +88,7 @@ Be free to use, fork, clone and contribute.
 
 ## Features
 
-Download and unzip **RenPy** SDK for feature use
+Download and unzip **RenPy** SDK for feature using
 
 ## Development Status
 
