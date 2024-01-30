@@ -88,11 +88,7 @@ Be free to use, fork, clone and contribute.
 
 ## Features
 
-- Action files templates
-- This template base on [libresource/open-source-checklist](https://github.com/libresource/open-source-checklist). 
-It contains may useful files for open source project: ([CHECKLIST.md](CHECKLIST.md), [CONTRIBUTING.md](CONTRIBUTING.md), 
-[CODE_OF_CONDUCT.md](CODE_OF_CONDUCT.md), and much more). 
-- Action example
+Download and unzip **RenPy** SDK for feature use
 
 ## Development Status
 
