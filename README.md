@@ -66,7 +66,7 @@ jobs:
     steps:
     - uses: actions/checkout@v3
     - name: Install RenPy
-      uses: PaxlavaGames/renpy-install@v0.1.0
+      uses: PaxlavaGames/renpy-install@v0.1.1
       with:
         version: "8.1.3"
 ```
