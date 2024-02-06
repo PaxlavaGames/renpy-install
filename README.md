@@ -52,7 +52,7 @@ GitHub action to download and unzip **RenPy SDK** for future using
 
 ### Run using stable version
 
-#### With params
+#### Without params
 
 ```yaml
 name: Install RenPy
@@ -66,9 +66,7 @@ jobs:
     steps:
     - uses: actions/checkout@v3
     - name: Install RenPy
-      uses: PaxlavaGames/renpy-install@v0.1.2
-      with:
-        version: "8.1.3"
+      uses: PaxlavaGames/renpy-install@v0.2.0
 ```
 
 ### Run using last version (maybe unstable)
@@ -77,9 +75,34 @@ jobs:
 uses: PaxlavaGames/renpy-install@main
 ```
 
+## Parameters
+
+### Optional parameters
+
+- `version` - RenPy SDK version. Default value = `"8.2.0"`
+
+#### Example usage with parameters
+
+```yaml
+name: Install RenPy
+
+on:
+  push:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v3
+    - name: Install RenPy
+      uses: PaxlavaGames/renpy-install@v0.2.0
+      with:
+        version: "8.2.0"
+```
+
 ## Mission
 
-To provide quickstart with open source repository what contains GitHub action
+To create useful and user-friendly GitHub action for **RenPy** projects
 
 ## Open Source Project
 
@@ -92,6 +115,7 @@ Download and unzip **RenPy** SDK for feature using
 
 ## Development Status
 
+This action was tested with **8.1.3** and **8.2.0** version.
 This is BETA Version. Be careful. If you find a bug or imagine a feature, please share.
 
 ## Examples
