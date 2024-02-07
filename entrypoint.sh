@@ -14,6 +14,8 @@ mv ./${renpy_sdk_package} ./renpy
 echo "Done. RenPy (${renpy_sdk_package}) was unzipped"
 echo "You can find RenPy SDK here: ./renpy"
 
+echo "Download web (yes/no): $2"
+
 if [ "$2" = "yes" ] ; then
   echo "Downloading Web extension"
   renpy_web_package=renpy-$1-web
