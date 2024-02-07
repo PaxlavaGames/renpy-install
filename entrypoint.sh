@@ -25,6 +25,6 @@ if [ "$2" = "yes" ] ; then
   echo "Unzipping (${renpy_web_package})..."
   unzip ./${renpy_web_package}.zip
   rm ./${renpy_web_package}.zip
-  mv ./${renpy_web_package} ./renpy
+  mv ./web ./renpy
 fi
 
