@@ -66,7 +66,7 @@ jobs:
     steps:
     - uses: actions/checkout@v3
     - name: Install RenPy
-      uses: PaxlavaGames/renpy-install@v0.2.0
+      uses: PaxlavaGames/renpy-install@v0.3.0
 ```
 
 ### Run using last version (maybe unstable)
@@ -80,7 +80,7 @@ uses: PaxlavaGames/renpy-install@main
 ### Optional parameters
 
 - `version` - RenPy SDK version. Default value = `"8.2.0"`
-- `download_web` - (`"yes"` or `"no"`) Download web extension. Default value = `"no"`. Required for web build
+- `download_web` - (`"yes"` or `"no"`) Download web extension. Default value = `"no"`. Required for web builds
 
 #### Example usage with parameters
 
@@ -96,7 +96,7 @@ jobs:
     steps:
     - uses: actions/checkout@v3
     - name: Install RenPy
-      uses: PaxlavaGames/renpy-install@v0.2.0
+      uses: PaxlavaGames/renpy-install@v0.3.0
       with:
         version: "8.2.0"
         download_web: "yes"
