@@ -23,7 +23,7 @@ if [ "$2" = "yes" ] ; then
   clear
   echo "Done. RenPy web extension (${renpy_web_package}) was downloaded."
   echo "Unzipping (${renpy_web_package})..."
-  tar -xf ./${renpy_web_package}.zip
+  unzip ./${renpy_web_package}.zip
   rm ./${renpy_web_package}.zip
   mv ./${renpy_web_package} ./renpy
 fi
