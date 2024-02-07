@@ -6,6 +6,10 @@ inputs:
     description: "SDK version"
     required: false
     default: "8.2.0"
+  download_web:
+    description: "Download Web Extension"
+    required: false
+    default: "no"
 runs:
   using: 'docker'
   image: 'Dockerfile'

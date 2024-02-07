@@ -80,6 +80,7 @@ uses: PaxlavaGames/renpy-install@main
 ### Optional parameters
 
 - `version` - RenPy SDK version. Default value = `"8.2.0"`
+- `download_web` - (`"yes"` or `"no"`) Download web extension. Default value = `"no"`. Required for web build
 
 #### Example usage with parameters
 
@@ -98,6 +99,7 @@ jobs:
       uses: PaxlavaGames/renpy-install@v0.2.0
       with:
         version: "8.2.0"
+        download_web: "yes"
 ```
 
 ## Mission
