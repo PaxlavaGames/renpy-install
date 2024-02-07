@@ -15,6 +15,7 @@ runs:
   image: 'Dockerfile'
   args:
     - ${{ inputs.version }}
+    - ${{ inputs.download_web }}
 branding:
   color: 'purple'
   icon: 'arrow-down'
